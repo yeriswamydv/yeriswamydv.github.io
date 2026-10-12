@@ -97,7 +97,7 @@ dialog{overflow:auto;max-height:92vh}
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%F0%9F%A6%B4%3C/text%3E%3C/svg%3E">
 </head>
 <body>
-<nav><div class="wrap"><a href="#about">About</a><a href="#experience">Experience</a><a href="#case">Case study</a><a href="#leadership">Leadership</a><a href="#tools">Tools</a><a href="#project">Project</a><a href="#skills">Skills</a><a href="#certs">Certifications</a><a href="#contact">Contact</a></div></nav>
+<nav><div class="wrap"><a href="#about">About</a><a href="#experience">Experience</a><a href="#case">Case study</a><a href="#quality">Quality</a><a href="#leadership">Leadership</a><a href="#tools">Tools</a><a href="#project">Project</a><a href="#skills">Skills</a><a href="#certs">Certifications</a><a href="#contact">Contact</a></div></nav>
 
 <div class="band"><header class="wrap hero">
 <div>
@@ -150,6 +150,29 @@ dialog{overflow:auto;max-height:92vh}
 <p style="max-width:68ch"><b>My role.</b> The link between the CAD, process, manufacturing and QA teams. During development I ran update meetings, logged issues in JIRA and raised them in daily meetings. After release I made sure manufacturing received the correct files, then handled any manufacturing or QA issue with the CAD team and issued corrected documents.</p>
 <div class="stats"><div><b>571</b><span>tickets closed with a fix over about 6 months</span></div><div><b>4</b><span>teams coordinated</span></div><div><b>4</b><span>controlled DCR releases</span></div><div><b>~2 wk</b><span>to deliver each fix</span></div></div>
 <p style="max-width:68ch"><b>Lesson learned.</b> When one item is fixed, the other features covered by the same DCR are verified and validated before release, so a fix for one issue cannot introduce another. Process fixes rolled out without disruption.</p>
+</section>
+
+<section id="quality"><h2>Quality case studies</h2>
+<p style="max-width:68ch">Examples of how I handle nonconformances under design control. Details are described in general terms.</p>
+<div class="card" style="margin-bottom:24px"><h3>CAPA: CAD models that did not fit the manufacturing frame</h3>
+<ul>
+<li><b>Problem.</b> A quality check after CAD design found that some CAD models could not fit within the manufacturing frame.</li>
+<li><b>Root cause.</b> Unusually large bone size meant the models for the affected cases exceeded what the frame could hold.</li>
+<li><b>Containment.</b> I listed the recently designed cases, confirmed where each stood in production, held the affected models and had them replaced.</li>
+<li><b>My part.</b> I led the investigation and listed every error, opened NCRs where needed and DCRs for the fixes, updated the PFMEA, published the corrected CAD models to manufacturing and took the CAPA to closure.</li>
+<li><b>Prevention.</b> Designers and reviewers were trained, and the PFMEA was updated. The fix was verified by following the established protocols and work instructions.</li>
+<li><b>Outcome.</b> Closed with QA, CAD, Process and Manufacturing. No affected model was used.</li></ul></div>
+<div class="cols">
+<div class="card"><h3>NCR: a missing feature on a jig</h3><ul>
+<li><b>Found.</b> QA found a missing fillet in a critical mating area of a jig part.</li>
+<li><b>My part.</b> I investigated, initiated the NCR and a CAD rework form, and had the CAD team rework the model. I published the updated models, submitted the rework form in the DHF and informed QA and manufacturing after disposition.</li>
+<li><b>Outcome.</b> Updated models were published on time. It was a one-off, so no CAPA was needed.</li></ul></div>
+<div class="card"><h3>Process deviation: a part not fitting the frame</h3><ul>
+<li><b>Why.</b> Running the design as normal would have caused a manufacturing problem.</li>
+<li><b>Risk control.</b> The additional part was made as a separate STL model.</li>
+<li><b>My part.</b> I investigated, initiated the deviation and a CAD rework form, and followed the same release steps: DHF update, then informing QA and manufacturing after disposition.</li>
+<li><b>Outcome.</b> Closed cleanly.</li></ul></div></div>
+<p style="max-width:68ch;margin-top:24px"><b>Containment checks.</b> I supported 5+ containment checks across tibial implants and tibial and femoral jigs, covering implants, jigs and drawings for all designs completed in the previous two months. Nothing reached production.</p>
 </section>
 
 <section id="leadership"><h2>Leadership</h2>
